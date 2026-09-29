@@ -1,10 +1,16 @@
 :root {
-  --color-primary: #269fe6;
-  --color-primary-hover: #2086c2;
+  --color-primary: #00b99a;
+  --color-primary-hover: #0cd4b3;
   --color-primary-dark: #13141f;
   --color-primary-dark-hover: #212336;
   --color-primary-light: #d4ecfa;
   --color-primary-light-hover: #bdd8e7;
+
+  --color-primary-back: #ac4581;
+  --color-primary-cures: #008ad1;
+  --color-primary-baptizes: #ffec00;
+  --color-primary-save: #e20613;
+
 
   --color-white: #fff;
   --color-black: #000;

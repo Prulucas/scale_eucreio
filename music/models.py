@@ -1,8 +1,10 @@
 from django.db import models
 
-# Create your models here.
 class Music(models.Model):
+
     title = models.CharField("Título", max_length=50)
+    ref = models.URLField("Link", max_length=200)
+    description = models.CharField("Descrição", max_length=50)
 
     class Meta:
         verbose_name = "Música"
